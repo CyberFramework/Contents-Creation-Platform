@@ -5,15 +5,15 @@ select * from anchor_model_database;
 select * from model_status;
 
 create table model_obj_database(
-	obj_name varchar(100) primary key,
-    link varchar(1000)
+    	obj_name varchar(100) primary key,
+    	link varchar(1000)
 );
 
 create table anchor_model_database(
-	anchorID varchar(30),
-    obj_name varchar(100),
-    modelID varchar(30) primary key,
-    foreign key (obj_name) references model_obj_database(obj_name)
+    	anchorID varchar(30),
+    	obj_name varchar(100),
+    	modelID varchar(30) primary key,
+    	foreign key (obj_name) references model_obj_database(obj_name)
 );
 
 create table model_status(
@@ -26,6 +26,11 @@ create table model_status(
 	rotationX float4,
 	rotationY float4,
 	rotationZ float4,
+	
+	scaleX float4,
+	scaleY float4,
+	scaleZ float4;
+
 	foreign key (modelID) references anchor_model_database(modelID)
 );
 
