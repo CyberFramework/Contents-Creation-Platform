@@ -1,6 +1,6 @@
 # Blender v2.82 (sub 7) OBJ File: ''
 # www.blender.org
-mtllib mossy rocks obj.mtl
+# mtllib mossy rocks obj.mtl
 o mossy_rocks_Mesh
 v 2.401415 -0.021126 -3.619833
 v 2.762969 0.224145 -3.682329
