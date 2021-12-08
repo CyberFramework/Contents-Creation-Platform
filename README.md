@@ -31,6 +31,8 @@ It currently works on mobile and HoloLens 2.
 
 ## AWS
 Accessed through My Sql query statement.
+### About schema
+![image](https://user-images.githubusercontent.com/69634389/145163042-8cc4819d-fec6-4f3e-8f64-18ca1025f343.png)
 ### Sample code
 https://github.com/CyberFramework/Contents-Creation-Platform/blob/main/final%20query%20save.sql
 
