@@ -9,6 +9,7 @@ The "host" is responsible for interacting with the model among content users. <b
 "Client"s can share host's interactions with the model. <br>
 
 
+
 ## Contents provider
 The code for the content provider runs on both PC and mobile. <br>
 It's code uploaded under the name of contents provider. <br>
