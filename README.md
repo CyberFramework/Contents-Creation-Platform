@@ -1,6 +1,7 @@
 # Contents-Creation-Platform
 Welcome to the Contents Creation Platform repository on GitHub.
 This project is for creating your own 3D MR contents, and sharing experience.
+Experience sharing means, we can observe the interaction of other people with the virtual object we created, just like a real object.
 Users of this project are divided into 3 categories, "content provider"s, "host"s, and "client"s.
 
 The "content provider" places 3d objects that users will see.
@@ -26,6 +27,30 @@ It's code uploaded under the name of contents provider.
 ## Host & Clients
 Host can interact with content models produced by content providers, and clients can view them through their devices.
 It currently works on mobile and HoloLens 2.
+### UI details
+![image](https://user-images.githubusercontent.com/69634389/145163232-a79ec861-c8b8-4aca-a987-eac8528d8eab.png)
+
+#### Prerequisites
+https://docs.microsoft.com/ko-kr/learn/modules/azure-spatial-anchors-tutorials/
+* A Windows 10 PC configured with the correct tools
+* Windows 10 SDK 10.0.18362.0 or later
+* A HoloLens 2 device configured for development
+* Unity Hub with Unity 2020.3.X/2019.4.X installed and the Universal Windows Platform Build Support module added
+* Set up a mixed reality project in Unity module
+* Mixed Reality Feature Tool
+* Basic familiarity with Unity - interface, scene creation, package import, addition of GameObjects to a scene
+* Completed the Create a Spatial Anchors resource section of the Quickstart: Create a Unity HoloLens app that uses Azure Spatial Anchors tutorial
+
+#### Spec
+** Written in Unity 2020.3.12f1 **
+** Azure Saptial Anchor SDK Core 2.10.2 **
+** Azure Saptial Anchor SDK for Windows 2.10.2 **
+** Mixed Reality OpenXR Plugin 1.0.0 **
+** Mixed Reality Tookit Foundation **
+** Mixed Reality Toolkit Standart Assets **
+#### Reference
+** Runtime OBJ Importer : https://assetstore.unity.com/packages/tools/modeling/runtime-obj-importer-49547 ver 2.02 **
+!) Build must follow what is in this "readme.html" of this Runtime OBJ Importer
 
 
 
