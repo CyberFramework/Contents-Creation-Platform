@@ -17,6 +17,7 @@ It's code uploaded under the name of contents provider. <br>
 ![image](https://user-images.githubusercontent.com/69634389/145160119-24a4b44e-f350-4244-808a-64d744bafd30.png)
 ### UI details
 ![image](https://user-images.githubusercontent.com/69634389/145160621-5a64d520-5624-42fc-9ed4-315be58c4eb0.png)
+Download https://github.com/CyberFramework/Contents-Creation-Platform/blob/main/unity_package_share/Contents_provider_obj_ver.unitypackage to build own contents provider. <br>
 
 #### Spec
 ** Written in Unity 2020.3.6f1 ** <br>
